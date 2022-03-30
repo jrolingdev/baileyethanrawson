@@ -1,0 +1,11 @@
+[build]
+  command = "svelte-kit build"
+  publish = "build"
+
+[dev]
+  command = "svelte-kit dev"
+  autoLaunch = false
+
+[functions]
+  directory = "functions"
+  node_bundler = "esbuild"
